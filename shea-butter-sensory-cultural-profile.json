@@ -1,0 +1,264 @@
+<script type="application/ld+json">{
+  "title": "Shea Butter (Vitellaria paradoxa): A Sensory and Cultural Profile",
+  "subtitle": "Women's Gold – Documenting the feel, smell, and duality of Africa's sacred fat",
+  "archive": "African Foodways Heritage Archive",
+  "entry_type": "sensory_cultural_profile",
+  "author": "Ivy Newton",
+  "date_recorded": "2026-02-14",
+  "geographic_origin": "Shea Belt (West Africa: Senegal to Sudan)",
+  "primary_producers": "Women's Collectives and Cooperatives",
+  
+  "sensory_documentation": {
+    "tactile": {
+      "description": "A fat that exists between solid and liquid, demanding to be touched to be understood.",
+      "in_the_hand": [
+        {
+          "condition": "At room temperature",
+          "sensation": "Firm yet yielding. When first picked up, it holds its shape but the warmth of your palm begins its transformation immediately."
+        },
+        {
+          "condition": "Between fingers",
+          "sensation": "Slippery, unmistakably fatty. The surface slides against itself with a smoothness that signals pure fat content."
+        },
+        {
+          "condition": "As it warms",
+          "sensation": "It begins to melt, not abruptly but gradually, surrendering to body heat. The phase change is slow enough to observe—solid becoming oil becoming absorbed."
+        },
+        {
+          "condition": "Texture variation by refinement",
+          "sensation": {
+            "unrefined": "Retains a slight graininess, a faint resistance between thumb and finger. Tiny particles—remnants of the nut, traces of the hand grinding—create a subtle texture that refined versions lack.",
+            "refined": "Uniformly smooth, almost waxy. The graininess is gone, processed out. It slides without story."
+          }
+        },
+        {
+          "condition": "Rubbed into skin",
+          "sensation": "It melts away completely, absorbing rather than sitting on the surface. The slip disappears, leaving only the memory of moisture. Skin feels different afterward—not oily, but changed."
+        }
+      ]
+    },
+    
+    "olfactory": {
+      "description": "The smell of shea is the smell of West African women's work—nutty, smoky, heavy with memory.",
+      "unrefined_aroma": {
+        "primary_notes": [
+          "Deep, nutty, almost like roasted hazelnuts but wilder",
+          "Smoky—not sharp smoke, but the gentle smoke of cooking fires where nuts have been dried",
+          "Earthy, grounding, like sun-baked earth after rain"
+        ],
+        "intensity": "Overpowering to the unaccustomed. It fills a room. It clings to hands long after application. It announces itself.",
+        "character": "Complex, variable by batch depending on roasting time and wood type. No two batches smell identical."
+      },
+      "refined_aroma": {
+        "primary_notes": ["Neutral", "Clean", "Essentially nothing"],
+        "description": "The smell has been stripped away by deodorization—high-temperature steam distillation that removes volatile compounds. What remains is fat without identity, oil without origin."
+      },
+      "cultural_aroma_note": "In traditional systems, the specific aroma of a batch tells its story: how long the nuts were roasted, what wood was used, who made it. Deodorization, from this perspective, isn't purification—it's erasure."
+    },
+    
+    "visual": {
+      "unrefined": {
+        "color": "Ivory to deep yellow, sometimes greenish-gray depending on region and processing",
+        "variability": "Color shifts with season, with nut variety, with roasting intensity",
+        "surface": "May have a matte finish, sometimes tiny speckles from incomplete filtration"
+      },
+      "refined": {
+        "color": "Uniform pale white or off-white",
+        "surface": "Smooth, consistent, almost plasticky in its perfection"
+      },
+      "traditional": "The eye reads unrefined shea as handmade. The variations are not flaws but signatures."
+    }
+  },
+  
+  "the_duality": {
+    "title": "Standardization Duality: The Industrial Bifurcation of a Unified Product",
+    "explanation": "In traditional West African systems, shea butter was a unified product—used for cooking, for skin, for medicine, even for lamp fuel. Modern global markets have enforced a strict split into two categories, creating a false dichotomy that the traditional system never recognized.",
+    
+    "comparative_table": [
+      {
+        "category": "Food Grade Shea Butter",
+        "primary_goal": "Safety for ingestion",
+        "processing": "Refined, filtered, deodorized, bleached",
+        "additives": "May contain food-safe preservatives (e.g., tocopherols)",
+        "color": "Pale, uniform",
+        "aroma": "Neutral to slightly nutty (often stripped)",
+        "texture": "Uniformly smooth, processed",
+        "key_biochemistry": "High smoke point (≈350°F/175°C); stable triglycerides",
+        "regulation": "FDA/EFSA food safety standards"
+      },
+      {
+        "category": "Cosmetic (Topical) Shea Butter",
+        "primary_goal": "Efficacy for skin and hair",
+        "processing": "Unrefined or lightly filtered; 'raw' or 'virgin'",
+        "additives": "Often none; may include essential oils",
+        "color": "Ivory to deep yellow",
+        "aroma": "Distinct nutty, smoky, complex aroma",
+        "texture": "Variable graininess, handmade quality",
+        "key_biochemistry": "Rich in unsaponifiable fraction (triterpenes, vitamins A & E)",
+        "regulation": "Cosmetic regulations; not evaluated for ingestion"
+      },
+      {
+        "category": "Traditional Unified Product",
+        "primary_goal": "Multi-purpose utility",
+        "processing": "Traditional boiling, manual churning, hand-kneading",
+        "additives": "None",
+        "color": "Variable, batch-dependent",
+        "aroma": "Complex, tells the story of its making",
+        "texture": "Variable, retains graininess from hand processing",
+        "key_biochemistry": "Contains both stable fats and bioactive compounds",
+        "regulation": "Knowledge held by women; context-dependent use"
+      }
+    ],
+    
+    "the_trade_off": "Refining for food grade often degrades or removes the very unsaponifiable compounds that define cosmetic and medicinal efficacy. The industry forces a choice: eat it or put it on your skin. The tradition knew no such division."
+  },
+  
+  "the_refining_process": {
+    "what_is_food_grade": "The transformation of shea butter into a 'food-grade' commodity involves steps that fundamentally alter the traditional product to meet external safety and market demands:",
+    "steps": [
+      {
+        "step": "Refining",
+        "description": "Crude butter is treated with an alkali to neutralize free fatty acids, which can cause rancidity and are monitored in food oils."
+      },
+      {
+        "step": "Bleaching",
+        "description": "Activated clays or carbons remove pigments (carotenoids) and residual impurities, creating a pale color deemed more 'pure' by international buyers."
+      },
+      {
+        "step": "Deodorization",
+        "description": "High-temperature steam distillation strips volatile compounds responsible for shea's characteristic nutty, smoky aroma, yielding a neutral fat.",
+        "sensory_impact": "The smell—the story—is boiled away."
+      },
+      {
+        "step": "Winterization",
+        "description": "The butter is cooled and filtered to remove high-melting-point stearin fractions, ensuring a consistent texture and preventing graininess.",
+        "sensory_impact": "The graininess—the tactile signature of handwork—is removed."
+      },
+      {
+        "step": "Additive Introduction",
+        "description": "Food-safe antioxidants like tocopherols (Vitamin E) may be added to extend shelf life, a requirement for long-distance shipping."
+      }
+    ],
+    "analytical_note": "This process prioritizes shelf stability, visual uniformity, and neutral flavor—values of global commodity trade—over the bioactive complexity and cultural markers (aroma, color, texture) valued in traditional systems."
+  },
+  
+  "botanical_profile": {
+    "scientific_name": "Vitellaria paradoxa",
+    "common_names": ["Shea butter", "Women's Gold", "Karité"],
+    "tree_description": "A slow-growing, deciduous tree vital to parkland savanna ecosystems of the Sudano-Sahelian region. Cannot be plantation-grown—only managed in the wild.",
+    "fruit_bearing_age": "Approximately 20 years to first fruit",
+    "full_maturity": "45 years",
+    "productive_lifespan": "Up to 200 years after reaching maturity",
+    "harvest_season": "May to August, traditionally by women and children",
+    "processing_chain": "A labor-intensive, multi-day process of boiling, drying, crushing, roasting, grinding, kneading, and separating the fat from water.",
+    "yield": "Approximately 5 kg of fresh fruit yields 1 kg of dry nuts, which yields about 0.4 kg of crude butter"
+  },
+  
+  "producing_countries": [
+    {"rank": 1, "country": "Burkina Faso"},
+    {"rank": 2, "country": "Mali"},
+    {"rank": 3, "country": "Ghana"},
+    {"rank": 4, "country": "Nigeria"},
+    {"rank": 5, "country": "Côte d'Ivoire"},
+    {"rank": 6, "country": "Benin"},
+    {"rank": 7, "country": "Togo"},
+    {"rank": 8, "country": "Guinea"}
+  ],
+  
+  "biochemistry_of_duality": {
+    "food_grade_priority": "Triglyceride structure (high in stearic and oleic acids) prized for heat stability and mouthfeel. Undesirable compounds (like polycyclic aromatic hydrocarbons from traditional roasting) are removed.",
+    "cosmetic_grade_priority": "Unsaponifiable fraction (5-10%) prized, including triterpenes (lupeol, cinnamates) with anti-inflammatory and skin-barrier repair properties, and vitamins A & E.",
+    "the_loss": "Refining for food grade degrades or removes the unsaponifiable compounds that define cosmetic efficacy. The two uses cannot, under current industrial logic, coexist in the same product."
+  },
+  
+  "culinary_application": {
+    "requirement": "Must be food grade for cooking",
+    "smoke_point": "≈350°F (175°C) — suitable for sautéing and frying",
+    "flavor_when_refined": "Neutral, subtle richness, carries other flavors well",
+    "flavor_when_unrefined": "Powerful nutty, smoky taste—overwhelming to some, cherished by others",
+    "traditional_culinary_use": "Used for centuries as cooking fat throughout the shea belt",
+    
+    "sample_preparation": {
+      "name": "Garlic and Lemon Shea Butter Dipping Sauce",
+      "description": "Demonstrates food-grade shea butter as a modern cooking fat",
+      "biochemical_rationale": "Utilizes shea butter's high smoke point and stability",
+      "prep_time": "5 minutes",
+      "cook_time": "5 minutes",
+      "ingredients": [
+        "2 tablespoons food grade shea butter",
+        "2 cloves garlic, minced",
+        "1 tablespoon lemon juice",
+        "1 teaspoon soy sauce",
+        "1/2 teaspoon honey or maple syrup (optional)",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Melt shea butter in small saucepan over low heat. The high stearic acid content requires gentle, consistent heat.",
+        "Add minced garlic; cook 1-2 minutes until fragrant. Shea butter's stability prevents garlic from burning at this low temperature.",
+        "Remove from heat, cool slightly, then stir in lemon juice and soy sauce. Adding acids off-heat preserves their bright flavor.",
+        "Season with salt, pepper, and optional sweetener. Serve as dip for bread, roasted vegetables, or grilled meats."
+      ],
+      "food_science_note": "Shea butter is rich in stearic and oleic acids, giving it a high smoke point suitable for sautéing and frying. In this context, food-grade shea butter acts as a direct substitute for butter, ghee, or coconut oil, adding subtle richness."
+    }
+  },
+  
+  "socio_economic_dimensions": {
+    "women's_gold_paradox": "Shea butter is famously termed 'women's gold,' but global standardization creates complex realities:",
+    "dimensions": [
+      {
+        "aspect": "Empowerment vs. Exploitation",
+        "description": "The global shea boom has created income for millions of women but often within a price-taking commodity chain where value addition (refining, branding) happens externally."
+      },
+      {
+        "aspect": "Knowledge Reconfiguration",
+        "description": "Women's expertise in making multi-purpose butter is less valued by an industry demanding specialized products for segmented markets."
+      },
+      {
+        "aspect": "Certification Burdens",
+        "description": "Meeting 'food-grade' or 'organic' certifications requires capital and paperwork that can marginalize small-scale producers while benefiting larger cooperatives or external processors."
+      },
+      {
+        "aspect": "Cultural Erosion",
+        "description": "As the raw material is exported for refining, the deep cultural knowledge of shea's uses risks being reduced to a technical manual for nut collection."
+      }
+    ]
+  },
+  
+  "ethical_considerations": {
+    "never_ingest_cosmetic_shea": "Cosmetic shea butter may contain impurities or microbial loads unsafe for ingestion and is not produced under food-safe conditions.",
+    "seek_transparency": "Look for brands that specify 'food grade' and name their refining process. Support brands that partner directly with women's cooperatives and share value equitably.",
+    "recognize_price_point": "Properly refined food-grade shea butter has undergone costly processing; an extremely low price may indicate a product that doesn't meet true safety standards."
+  },
+  
+  "tags": [
+    "shea butter",
+    "Women's Gold",
+    "Vitellaria paradoxa",
+    "sensory documentation",
+    "tactile",
+    "olfactory",
+    "food grade",
+    "cosmetic grade",
+    "traditional knowledge",
+    "West Africa",
+    "women producers",
+    "commodification",
+    "unsaponifiable fraction",
+    "stearic acid",
+    "oleic acid",
+    "duality",
+    "standardization",
+    "cultural preservation",
+    "fat",
+    "cooking oil",
+    "skin butter"
+  ],
+  
+  "license": "CC BY 4.0",
+  "related_entries": [
+    "ash-principle-alkaline-processing",
+    "air-potato-paradox-florida-africa"
+  ],
+  
+  "archive_note": "This entry documents shea butter not as a commodity but as a sensory, cultural, and biochemical entity. It records the feel between fingers, the smell that fills rooms, and the industrial forces that created a false duality where none existed before."
+}</script>
