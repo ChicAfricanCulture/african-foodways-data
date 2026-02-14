@@ -1,0 +1,86 @@
+<script type="application/ld+json">{
+  "archive_name": "African Foodways Heritage Archive",
+  "description": "A structured collection of African food knowledge emphasizing sensory documentation, cultural context, and traditional wisdom. This archive preserves what recipes alone cannot: the feel, smell, and story of African foodways.",
+  "creator": "Ivy Newton",
+  "license": "CC BY 4.0",
+  "repository": "https://github.com/ChicAfricanCulture/african-foodways-data",
+  "last_updated": "2026-02-14",
+  
+  "collections": [
+    {
+      "name": "Ingredients",
+      "description": "Sensory and cultural profiles of African ingredients—how they feel, smell, and carry meaning",
+      "path": "ingredients/",
+      "files": [
+        {
+          "filename": "shea-butter-sensory-cultural-profile.json",
+          "title": "Shea Butter (Vitellaria paradoxa): A Sensory and Cultural Profile",
+          "type": "sensory_cultural_profile",
+          "tags": ["shea butter", "Women's Gold", "sensory", "tactile", "olfactory", "duality"]
+        }
+      ]
+    },
+    {
+      "name": "Plants",
+      "description": "Sensory observations, wild harvesting documentation, and botanical processing",
+      "path": "plants/",
+      "files": [
+        {
+          "filename": "cerasee-field-notes.json",
+          "title": "Cerasee Leaf Harvest and Drying for Tea",
+          "scientific_name": "Momordica charantia var. abbreviata",
+          "type": "field_notes",
+          "tags": ["cerasee", "bitter melon", "herbal tea", "wild plant", "sensory"]
+        },
+        {
+          "filename": "mango-leaf-tea-keitt-processing.json",
+          "title": "Processing of Mangifera indica 'Keitt' Leaves for Infusion",
+          "scientific_name": "Mangifera indica 'Keitt'",
+          "type": "processing_protocol",
+          "tags": ["mango leaf", "herbal tea", "dehydration", "sensory", "aroma"]
+        }
+      ]
+    },
+    {
+      "name": "Techniques",
+      "description": "Technical principles and food chemistry knowledge embedded in traditional practice",
+      "path": "techniques/",
+      "files": [
+        {
+          "filename": "ash-principle-alkaline-processing.json",
+          "title": "The Ash Principle: Alkaline Food Technology",
+          "type": "technical_principle",
+          "tags": ["ash", "alkaline processing", "food chemistry", "diasporic knowledge"]
+        }
+      ]
+    },
+    {
+      "name": "Case Studies",
+      "description": "Ecological and cultural paradoxes in food systems",
+      "path": "case-studies/",
+      "files": [
+        {
+          "filename": "air-potato-paradox-florida-africa.json",
+          "title": "The Air Potato Paradox: Food in Africa, Invasive Species in Florida",
+          "scientific_name": "Dioscorea bulbifera",
+          "type": "ecological_case_study",
+          "tags": ["air potato", "invasive species", "food paradox", "traditional knowledge"]
+        }
+      ]
+    }
+  ],
+  
+  "statistics": {
+    "total_files": 5,
+    "collections": 4,
+    "ingredients": 1,
+    "plants": 2,
+    "techniques": 1,
+    "case_studies": 1,
+    "date_range": "2018-2026"
+  },
+  
+  "sensory_emphasis": "This archive prioritizes documentation of tactile, olfactory, and cultural dimensions often lost in standard recipe collections.",
+  
+  "recommended_citation": "Newton, Ivy. (2026). African Foodways Heritage Archive. https://github.com/ChicAfricanCulture/african-foodways-data"
+} </script>
