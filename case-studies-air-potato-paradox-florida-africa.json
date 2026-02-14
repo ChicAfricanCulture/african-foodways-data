@@ -1,0 +1,196 @@
+<script type="application/ld+json">{
+  "title": "The Air Potato Paradox: Food in Africa, Invasive Species in Florida",
+  "subtitle": "A case study in how context, knowledge, and ecology transform the same plant from sustenance to threat",
+  "archive": "African Foodways Heritage Archive",
+  "entry_type": "ecological_case_study",
+  "author": "Ivy Newton",
+  "date_recorded": "2025-12",
+  "primary_site": "Florida, USA",
+  "comparative_site": "West Africa (Ghana, Nigeria)",
+  
+  "core_paradox": {
+    "statement": "A plant that feeds people in West Africa has become an ecological nightmare in Florida, forcing scientists to deploy biological warfare and spend millions on control efforts.",
+    "the_question": "How does a plant switch from 'dinner' to 'destroyer' simply by crossing an ocean?"
+  },
+  
+  "species_information": {
+    "scientific_name": "Dioscorea bulbifera",
+    "common_names": ["Air potato", "Aerial yam", "Bulbil-bearing yam"],
+    "family": "Dioscoreaceae (yams)",
+    "botanical_clarification": {
+      "not_a_potato": "Potatoes are in nightshade family (Solanaceae). Air potatoes are yams.",
+      "not_a_true_tuber": "The 'potatoes' are actually bulbils—specialized aerial reproductive structures.",
+      "growth_habit": "Vines climb up to 60 feet, producing bulbils along stems."
+    }
+  },
+  
+  "african_context": {
+    "regions": ["Ghana", "Nigeria", "West Africa"],
+    "role": "Cultivated food source",
+    "cultivation_practices": [
+      "Farmers cultivate specific varieties",
+      "Knowledge passed down of which types are edible",
+      "Traditional processing methods developed over generations",
+      "Harvest timing based on seasonal indicators"
+    ],
+    "processing_methods": "Extended boiling or soaking to remove toxins",
+    "cultural_knowledge": "2,000+ year old instruction manual passed through generations—knowledge of which varieties are safe, when to harvest, and how to prepare"
+  },
+  
+  "florida_context": {
+    "arrival": "Unknown—likely multiple introductions at different times from different sources",
+    "status": "Classified as invasive species, ecological threat",
+    "economic_impact": "Millions spent annually on control efforts",
+    "legal_status": "Illegal to cultivate or transport air potatoes in Florida",
+    "growth_characteristics": {
+      "daily_growth": "Up to 8 inches per day in peak season",
+      "canopy_coverage": "Can blanket up to 60% of forest canopy",
+      "reproduction": "Single vine can produce 300+ bulbils per season",
+      "dispersal": "Every bulbil that drops becomes next year's invasion",
+      "ecological_impact": [
+        "Smothers native plants",
+        "Weighs down trees causing collapse",
+        "Creates monoculture in invaded areas",
+        "Disrupts native ecosystems"
+      ]
+    },
+    "absence_factors": [
+      "No natural predators",
+      "No cultural knowledge of edible varieties",
+      "No traditional processing methods",
+      "Missing ecological checks and balances"
+    ]
+  },
+  
+  "biological_control_effort": {
+    "agent": "Lilioceris cheni (tiny red beetle from Asia)",
+    "strategy": {
+      "specialization": "Beetles eat ONLY air potato leaves",
+      "lifecycle_attack": "Adults eat leaves, larvae eat leaves—double damage",
+      "scale": "Over 1.5 million beetles released since 2011"
+    },
+    "outcome": "Mixed results—beetle populations have declined in some areas while vines continue spreading",
+    "ecological_question": "Did Florida bring a beetle to a vine war, only to discover the vine has biological tricks we don't understand?"
+  },
+  
+  "edibility_mystery": {
+    "the_question": "If it's food in Africa, why isn't anyone in Florida harvesting it?",
+    "barriers": [
+      {
+        "barrier": "Variety confusion",
+        "explanation": "Multiple varieties exist—some edible, some toxic. Without generational knowledge, identification is unreliable."
+      },
+      {
+        "barrier": "Processing knowledge gap",
+        "explanation": "Edible varieties require specific preparation to remove toxins. This knowledge is cultural, not instinctive."
+      },
+      {
+        "barrier": "Identification risk",
+        "explanation": "Mistaking toxic for edible could be fatal. The consequence of error is severe."
+      },
+      {
+        "barrier": "Legal status",
+        "explanation": "It's illegal to cultivate or transport air potatoes in Florida, even for research."
+      }
+    ],
+    "framing_insight": "In Africa, there's a 2,000-year-old instruction manual. In Florida, we have the plant but lost the manual—and trying to guess could be deadly."
+  },
+  
+  "scientific_uncertainties": {
+    "classification_questions": [
+      {
+        "question": "Multiple introductions?",
+        "detail": "Air potatoes likely arrived in Florida at different times from different sources"
+      },
+      {
+        "question": "Possible hybridization?",
+        "detail": "Different varieties may have cross-bred, creating new forms with unknown characteristics"
+      },
+      {
+        "question": "Environmental adaptation?",
+        "detail": "Florida environment may have selected for particularly aggressive traits"
+      },
+      {
+        "question": "Missing genetic data",
+        "detail": "Complete genetic profiles of all wild populations are not yet available"
+      }
+    ],
+    "control_implication": "If fighting multiple different plants that look similar but have different biology, one-size-fits-all solutions won't work."
+  },
+  
+  "toxicity_information": {
+    "compound": "Dioscorine",
+    "effects": "Can cause serious illness if consumed improperly",
+    "variation": "Different plants contain different levels of toxic compounds",
+    "critical_warning": {
+      "statement": "Wild air potatoes in Florida should NOT be eaten",
+      "risks": [
+        "Toxin variation between individual plants",
+        "Unreliable home preparation without traditional knowledge",
+        "Legal consequences of cultivation or spread",
+        "Ecological damage from accidentally spreading bulbils"
+      ]
+    }
+  },
+  
+  "philosophical_lessons": [
+    {
+      "lesson": "Food isn't just about plants—it's about knowledge",
+      "insight": "The same plant species can be dinner or poison depending on what you know about it. Cultural knowledge is as essential to food safety as the plant itself."
+    },
+    {
+      "lesson": "Context changes everything",
+      "insight": "Remove a plant from its ecosystem of predators, competitors, and knowledgeable humans, and it can transform from resource to threat."
+    },
+    {
+      "lesson": "Biological control is messy science",
+      "insight": "The red beetle story shows how complex ecological interventions can be—and how often our solutions create new puzzles."
+    }
+  ],
+  
+  "future_directions": {
+    "research_fronts": [
+      "Studying why beetles haven't been more effective",
+      "Combining biological control with targeted herbicide applications",
+      "Public education on identification and reporting",
+      "Genetic mapping of different varieties"
+    ],
+    "ongoing_challenge": "The vines keep growing. The bulbils keep dropping. Florida searches for answers to how you defeat a plant that's both ordinary enough to be food and extraordinary enough to resist every control method."
+  },
+  
+  "final_irony": {
+    "observation": "Somewhere in West Africa, farmers are carefully tending their air potato crops, selecting the best varieties, using generations-old knowledge to prepare them safely. They're growing what looks identical to Florida's monster plant, but with completely different results.",
+    "conclusion": "In one place, it's agriculture. In another, it's invasion. The plant is the same. The difference is everything around it: the knowledge, the ecosystem, the context.",
+    "closing_thought": "What grows in your backyard might be someone else's dinner half a world away. The difference isn't in the plant—it's in everything we know (and don't know) about it."
+  },
+  
+  "tags": [
+    "air potato",
+    "Dioscorea bulbifera",
+    "invasive species",
+    "food paradox",
+    "ecological case study",
+    "traditional knowledge",
+    "biological control",
+    "Lilioceris cheni",
+    "Florida ecology",
+    "West African agriculture",
+    "food safety",
+    "cultural knowledge",
+    "plant toxins",
+    "dioscorine",
+    "yam family",
+    "invasive species management",
+    "food versus foe",
+    "contextual knowledge"
+  ],
+  
+  "license": "CC BY 4.0",
+  "related_entries": [
+    "cerasee-field-notes-001",
+    "ash-principle-alkaline-processing",
+    "mango-leaf-tea-keitt-processing"
+  ],
+  
+  "archive_note": "This case study documents a critical food systems paradox—how the same plant functions differently across contexts, and why cultural knowledge is as essential as botanical identification."
+}</script>
