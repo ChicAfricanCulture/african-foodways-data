@@ -1,0 +1,112 @@
+name: Update Index
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'plants/*.json'
+      - 'techniques/*.json'
+      - 'ingredients/*.json'
+      - 'case-studies/*.json'
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate index.json
+        run: |
+          echo '{' > index.json
+          echo '  "archive_name": "African Foodways Heritage Archive",' >> index.json
+          echo '  "description": "A structured collection of African food knowledge emphasizing sensory documentation, cultural context, and traditional wisdom.",' >> index.json
+          echo '  "creator": "Ivy Newton",' >> index.json
+          echo '  "license": "CC BY 4.0",' >> index.json
+          echo '  "repository": "https://github.com/ChicAfricanCulture/african-foodways-data",' >> index.json
+          echo '  "last_updated": "'$(date -I)'",' >> index.json
+          echo '  "collections": [' >> index.json
+          
+          # Plants
+          echo '    {' >> index.json
+          echo '      "name": "Plants",' >> index.json
+          echo '      "path": "plants/",' >> index.json
+          echo '      "files": [' >> index.json
+          first=true
+          for file in plants/*.json; do
+            if [ "$first" = true ]; then first=false; else echo ',' >> index.json; fi
+            title=$(jq -r '.title // .name // "Untitled"' "$file")
+            echo '        {' >> index.json
+            echo '          "filename": "'$(basename "$file")'",' >> index.json
+            echo '          "title": "'$title'"' >> index.json
+            echo -n '        }' >> index.json
+          done
+          echo '' >> index.json
+          echo '      ]' >> index.json
+          echo '    },' >> index.json
+          
+          # Techniques
+          echo '    {' >> index.json
+          echo '      "name": "Techniques",' >> index.json
+          echo '      "path": "techniques/",' >> index.json
+          echo '      "files": [' >> index.json
+          first=true
+          for file in techniques/*.json; do
+            if [ "$first" = true ]; then first=false; else echo ',' >> index.json; fi
+            title=$(jq -r '.title // .name // "Untitled"' "$file")
+            echo '        {' >> index.json
+            echo '          "filename": "'$(basename "$file")'",' >> index.json
+            echo '          "title": "'$title'"' >> index.json
+            echo -n '        }' >> index.json
+          done
+          echo '' >> index.json
+          echo '      ]' >> index.json
+          echo '    },' >> index.json
+          
+          # Ingredients
+          echo '    {' >> index.json
+          echo '      "name": "Ingredients",' >> index.json
+          echo '      "path": "ingredients/",' >> index.json
+          echo '      "files": [' >> index.json
+          first=true
+          for file in ingredients/*.json; do
+            if [ "$first" = true ]; then first=false; else echo ',' >> index.json; fi
+            title=$(jq -r '.title // .name // "Untitled"' "$file")
+            echo '        {' >> index.json
+            echo '          "filename": "'$(basename "$file")'",' >> index.json
+            echo '          "title": "'$title'"' >> index.json
+            echo -n '        }' >> index.json
+          done
+          echo '' >> index.json
+          echo '      ]' >> index.json
+          echo '    },' >> index.json
+          
+          # Case Studies
+          echo '    {' >> index.json
+          echo '      "name": "Case Studies",' >> index.json
+          echo '      "path": "case-studies/",' >> index.json
+          echo '      "files": [' >> index.json
+          first=true
+          for file in case-studies/*.json; do
+            if [ "$first" = true ]; then first=false; else echo ',' >> index.json; fi
+            title=$(jq -r '.title // .name // "Untitled"' "$file")
+            echo '        {' >> index.json
+            echo '          "filename": "'$(basename "$file")'",' >> index.json
+            echo '          "title": "'$title'"' >> index.json
+            echo -n '        }' >> index.json
+          done
+          echo '' >> index.json
+          echo '      ]' >> index.json
+          echo '    }' >> index.json
+          
+          echo '  ],' >> index.json
+          echo '  "total_files": '$(find plants techniques ingredients case-studies -name "*.json" 2>/dev/null | wc -l)',' >> index.json
+          echo '  "last_automated_update": "'$(date -I)'"' >> index.json
+          echo '}' >> index.json
+          
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add index.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update index.json"
+          git push
