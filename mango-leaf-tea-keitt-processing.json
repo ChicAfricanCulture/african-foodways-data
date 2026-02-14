@@ -1,0 +1,198 @@
+<script type="application/ld+json">{
+  "title": "Processing of Mangifera indica 'Keitt' Leaves for Infusion",
+  "subtitle": "A complete procedural record for transforming mango leaves into a dried tea ingredient",
+  "archive": "African Foodways Heritage Archive",
+  "entry_type": "procedural_record",
+  "author": "Archival Compiler / Ivy Newton",
+  "date_recorded": "2026-01-19",
+  "location": "South Florida, USA",
+  
+  "epistemic_category": {
+    "statement": "This is an archival documentation of a specific processing technique. It is not a clinical study, a biochemical analysis, or a broad ethnographic survey. Its validity is measured by the clarity and replicability of the procedure, and the accuracy of its descriptive context.",
+    "standard_of_proof": "Procedural replicability and contextual integrity",
+    "declared_audience": "Practitioners, researchers, and the culinarily curious seeking a detailed, contextualized method for this botanical preparation"
+  },
+  
+  "botanical_source": {
+    "species": "Mangifera indica L.",
+    "cultivar": "Keitt",
+    "cultivar_origin": "South Florida, late-season mango noted for vigorous growth and large leaves",
+    "archival_note": "This record is specific to leaves harvested from a 'Keitt' tree. Outcomes may vary with other cultivars. Documentation of cultivar allows future comparative study (e.g., do leaves from 'Keitt' differ in preparation or sensory outcome from 'Haden' or 'Tommy Atkins'?)",
+    "target_material": "Large, unblemished leaves with intact, vibrant green blades"
+  },
+  
+  "anatomical_focus": [
+    {
+      "structure": "Leaf Blade (Lamina)",
+      "description": "The broad, flat photosynthetic tissue",
+      "processing_status": "Primary material for infusion after processing",
+      "rationale": "Contains the cellular structures that hold flavor and aromatic compounds releasable in hot water"
+    },
+    {
+      "structure": "Midrib (Primary Vein)",
+      "description": "The thick, central fibrous vascular bundle",
+      "processing_status": "Mostly removed post-drying",
+      "rationale": "Woody, high-fiber structure contributes minimal soluble material and can impart overly tannic or bitter note if included in large quantity. Thinner upper portion may be retained in coarse grind"
+    },
+    {
+      "structure": "Secondary and Tertiary Veins",
+      "description": "The branching vascular network within the blade",
+      "processing_status": "Retained",
+      "rationale": "While fibrous, they are integrated into the leaf matrix and contribute to texture of dried product"
+    },
+    {
+      "structure": "Petiole (Stem)",
+      "description": "The stalk connecting leaf to branch",
+      "processing_status": "Removed at harvest",
+      "rationale": "Different moisture content and texture can impede even drying; not considered part of target infusion material in this protocol"
+    }
+  ],
+  
+  "comparative_context": {
+    "global_leaf_infusion_traditions": [
+      {
+        "plant": "Camellia sinensis",
+        "tradition": "Tea",
+        "significance": "Archetypal model for complex leaf processing (withering, oxidation, firing)"
+      },
+      {
+        "plant": "Ilex paraguariensis",
+        "tradition": "Yerba mate",
+        "significance": "Involves drying, sometimes smoking, and comminution of leaves and twigs"
+      },
+      {
+        "plant": "Aspalathus linearis",
+        "tradition": "Rooibos",
+        "significance": "Fermentation and drying process for needle-like leaves"
+      },
+      {
+        "plant": "Various herbs",
+        "tradition": "Tisanes (mint, sage, guava leaf)",
+        "significance": "Often simpler drying protocols for aromatic or flavorful leaves"
+      }
+    ],
+    "archival_contribution": "This record contributes a detailed methodology for M. indica to this comparative field"
+  },
+  
+  "dehydration_protocol": {
+    "name": "Staged, Low-Temperature Method",
+    "philosophy": "Prioritizes thorough moisture removal and preservation of leaf integrity over speed. Hybrid ambient/dehydrator method documented for replicable results.",
+    
+    "steps": [
+      {
+        "phase": "1. Selective Harvest",
+        "instructions": "Harvest 9-12 large, mature, unblemished leaves from an unsprayed 'Keitt' mango tree. Sever the petiole cleanly at the base of the leaf blade."
+      },
+      {
+        "phase": "2. Initial Air Drying (Moisture Migration)",
+        "instructions": "Do not wash. Arrange leaves in single layer on breathable surface (paper towel, rack) in dry, shaded area with ample air circulation. Allow to rest for 48 hours. Initiates slow, even moisture loss."
+      },
+      {
+        "phase": "3. Controlled Dehydration (Primary Drying)",
+        "temperature": "113°F (45°C)",
+        "duration": "10 hours",
+        "instructions": "Transfer leaves to dehydrator tray in single layer. Temperature selected to remove water actively while minimizing degradation of heat-sensitive aromatic compounds."
+      },
+      {
+        "phase": "4. Moisture Equalization (Rest Period)",
+        "instructions": "Remove leaves and spread at ambient temperature for 24 hours. Allows residual internal moisture to migrate to surface."
+      },
+      {
+        "phase": "5. Final Dehydration (Stabilization)",
+        "temperature": "113°F (45°C)",
+        "duration": "10 hours",
+        "instructions": "Return leaves to dehydrator. Ensures leaves are fully desiccated, brittle, and stable for storage."
+      }
+    ],
+    
+    "completion_criteria": "A successfully processed leaf will snap crisply when bent, not flex. Green color should be retained, not browned.",
+    
+    "archival_note": "This multi-stage method is documented as an effective approach to achieving a stable, whole-leaf product. Alternative methods (single-stage higher heat, traditional sun-drying) exist and would produce different results."
+  },
+  
+  "manual_processing_protocol": {
+    "steps": [
+      {
+        "step": "1. Separation of Midrib",
+        "instructions": "Hold dried leaf by tip. Gently tear leaf blade away from thick, central midrib, starting from base and pulling toward tip. Thickest portion of midrib is discarded or set aside for alternative use (e.g., separate decoction)."
+      },
+      {
+        "step": "2. Primary Size Reduction",
+        "instructions": "Manually break separated leaf blades into pieces approximately 1/2 inch (1.25 cm) in size to create uniform feedstock for grinding."
+      },
+      {
+        "step": "3. Grinding in Batches",
+        "instructions": "Using dedicated coffee or herb grinder, process pieces from approximately 3 dried leaves per batch. Pulse and grind to consistency ranging from small flakes to fine powder."
+      },
+      {
+        "step": "4. Collection and Storage",
+        "instructions": "Pour each batch onto parchment paper to cool, then consolidate into airtight, opaque glass container. Store in cool, dark place."
+      }
+    ]
+  },
+  
+  "yield_calculation": {
+    "input": "9 large, fresh 'Keitt' mango leaves",
+    "process": "Staged drying + manual de-ribbing + grinding",
+    "output_volume": "Approximately 1/4 volume of 16-ounce (473 ml) mason jar",
+    
+    "infusion_yield_estimate": {
+      "standard_bag_size": "1.5 to 2 grams",
+      "density": "Approximately 0.2 g/tsp (lightly packed ground leaf)",
+      "total_estimated_yield": "60-80 standard infusion bags' worth",
+      "practical_forecast": "Processing 9-12 leaves via this protocol yields a multi-week supply for daily infusion"
+    },
+    
+    "archival_value": "Documenting yield transforms anecdote into a replicable metric"
+  },
+  
+  "sensory_profile": {
+    "basis": "Direct organoleptic assessment of product made via above protocol",
+    
+    "visual": "Pale, wheat-greenish liquor. Color intensity correlates directly with steeping time and quantity of leaf used.",
+    
+    "olfactory": "Steam carries subtle, sweet aroma reminiscent of fresh green mangoes, indicating preservation of volatile compounds during low-temperature drying.",
+    
+    "gustatory": {
+      "primary_flavor": "Delicate, with clear note of green mango. Most perceptible when infusion is consumed without additives.",
+      "note_on_additives": "Subtle mango note is easily masked. Sweeteners (honey, cane sugar, artificial alternatives) will dominate flavor profile. To assess base character of leaf, tasting without additives is recommended.",
+      "steeping_variable": "Strength of flavor correlates with steeping time. Standard starting point: 5 minutes, adjustable to preference."
+    }
+  },
+  
+  "archival_summary": {
+    "contribution": "This entry serves as a complete procedural record for the preparation of Mangifera indica 'Keitt' leaves for infusion. It provides:",
+    "elements": [
+      "Clear epistemic stance as a technique archive, not a medical or scientific claim",
+      "Comparative context situating the practice within global foodways",
+      "Justified specificity regarding the documented cultivar",
+      "Replicable, stepwise protocol from harvest through storage",
+      "Quantitative yield data and descriptive sensory notes"
+    ],
+    "model_value": "It stands as a model for documenting a botanical processing technique with precision, context, and scholarly integrity, meeting the declared standard of proof for the African Foodways Heritage Archive."
+  },
+  
+  "tags": [
+    "mango leaf",
+    "Mangifera indica",
+    "Keitt cultivar",
+    "herbal tea",
+    "tisane",
+    "dehydration protocol",
+    "botanical processing",
+    "foodways archive",
+    "infusion",
+    "leaf tea",
+    "sensory documentation",
+    "yield calculation",
+    "South Florida",
+    "traditional knowledge",
+    "procedural record"
+  ],
+  
+  "license": "CC BY 4.0",
+  "related_entries": [
+    "cerasee-field-notes-001",
+    "ash-principle-alkaline-processing"
+  ]
+}</script>
